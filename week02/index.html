@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+  <head>
+    <style>
+      body {
+        font-family: sans-serif;
+        background: #fdf6e3;
+      }
+      h1 {
+        color: #d35400;
+      }
+      details {
+        border: 1px solid #cccccc;
+        border-radius: 8px;
+        padding: 10px;
+      }
+      summary {
+        cursor: pointer;
+        font-weight: bold;
+      }
+      img {
+        border-radius: 12px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      }
+      button {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 6px;
+        background: #2ecc71;
+        color: white;
+        cursor: pointer;
+        transition: 0.2s;
+      }
+      button:hover {
+        background: #27ae60;
+      }
+    </style>
+    <title>My First Page</title>
+  </head>
+  <body>
+    <h1>Hello, World!</h1>
+    <p>This is my first web page.</p>
+    <details>
+      <summary>Click to expand</summary>
+      <p>Hidden content appears here!</p>
+    </details>
+    <img src="cat.jpg" alt="A cute cat" width="300" />
+    <button id="myBtn">Click me</button>
+    <script>
+      document.getElementById("myBtn").addEventListener("click", function () {
+        alert("Hello, you clicked!");
+      });
+    </script>
+  <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496" integrity="sha512-ZE9pZaUXND66v380QUtch/5sE9tPFh2zg45pR2PB0CVkCtOREv2AJKkSidISWkysEuQ0EH8faUU5du78bx87UQ==" data-cf-beacon='{"version":"2024.11.0","token":"2cd1331ef16042878cdbc1bd2f04bfb2","r":1}' crossorigin="anonymous"></script>
+</body>
+</html>
