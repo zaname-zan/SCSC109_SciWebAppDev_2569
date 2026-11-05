@@ -77,6 +77,7 @@ def serve_layout():
 
 
 app = Dash()
+server = app.server  # for gunicorn (on Render.com)
 app.layout = serve_layout
 
 
